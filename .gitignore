@@ -416,3 +416,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+docs/AA-C780C-TB_Macro_Assembler_Reference_Manual_Apr78.pdf
+docs/GS-04 ORCA:M 2.0.pdf
+docs/GS-16 Prog. Ref. 6.0.1.pdf
+docs/GS-16 Prog. Ref. 6.0.pdf
+docs/II-03 ORCA:M Assembler.pdf
+docs/wdc_65816_programming_manual.pdf
+.gitignore
