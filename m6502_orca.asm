@@ -8,11 +8,11 @@
 * SUBTTL	SWITCHES,MACROS.
 
 REALIO	EQU	4			;5=STM
-				;4=APPLE.
-				;3=COMMODORE.
-				;2=OSI
-				;1=MOS TECH,KIM
-				;0=PDP-10 SIMULATING 6502
+                        ;4=APPLE.
+                        ;3=COMMODORE.
+                        ;2=OSI
+                        ;1=MOS TECH,KIM
+                        ;0=PDP-10 SIMULATING 6502
 INTPRC	EQU	1			;INTEGER ARRAYS.
 ADDPRC	EQU	1			;FOR ADDITIONAL PRECISION.
 LNGERR	EQU	0			;LONG ERROR MESSAGES.
