@@ -1,23 +1,23 @@
 * TITLE    BASIC M6502 8K VER 1.1 BY MICRO-SOFT
 * SEARCH    M6502
 * SALL
-* RADIX 10            ;THROUGHOUT ALL BUT MATH-PAK.
+* RADIX 10                              ;THROUGHOUT ALL BUT MATH-PAK.
 
-* $Z::                ;STARTING POINT FOR M6502 SIMULATOR
-    ORG    0        ;START OFF AT LOCATION ZERO.
+* $Z::                                  ;STARTING POINT FOR M6502 SIMULATOR
+            ORG     $0                  ;START OFF AT LOCATION ZERO.
 * SUBTTL    SWITCHES,MACROS.
 
 
-REALIO    EQU    4            ;5=STM
-                        ;4=APPLE.
-                        ;3=COMMODORE.
-                        ;2=OSI
-                        ;1=MOS TECH,KIM
-                        ;0=PDP-10 SIMULATING 6502
-INTPRC    EQU    1            ;INTEGER ARRAYS.
-ADDPRC    EQU    1            ;FOR ADDITIONAL PRECISION.
-LNGERR    EQU    0            ;LONG ERROR MESSAGES.
-TIME    EQU        0            ;CAPABILITY TO SET AND READ A CLK.
+REALIO      EQU     4                   ;5=STM
+                                        ;4=APPLE.
+                                        ;3=COMMODORE.
+                                        ;2=OSI
+                                        ;1=MOS TECH,KIM
+                                        ;0=PDP-10 SIMULATING 6502
+INTPRC      EQU     1                   ;INTEGER ARRAYS.
+ADDPRC      EQU     1                   ;FOR ADDITIONAL PRECISION.
+LNGERR      EQU     0                   ;LONG ERROR MESSAGES.
+TIME        EQU     0                   ;CAPABILITY TO SET AND READ A CLK.
 EXTIO    EQU     0            ;EXTERNAL I/O.
 DISKO    EQU     0            ;SAVE AND LOAD COMMANDS
 NULCMD    EQU    1            ;FOR THE "NULL" COMMAND
